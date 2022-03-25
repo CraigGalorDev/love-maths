@@ -25,8 +25,6 @@ function runGame(){
     let num1 = math.floor(math.random() *25) +1;
     let num2 = math.floor(math.random() *25) +1;
 }
-
-runGame();
 function checkAnswer(){
 
 } 

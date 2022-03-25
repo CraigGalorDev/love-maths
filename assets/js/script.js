@@ -69,7 +69,12 @@ function calculateCorrectAnswer(){
         throw `Unimplemented opertator ${operator} . Aborting!`;
     }
 }  
-function incrementScore(){}
+/**
+ * Gets the current score from the DOM and increments it by 1
+ */
+function incrementScore(){
+    
+}
 function incrementWrongAnswer(){}
 
 function displayAdditionQuestion(operand1,operand2){

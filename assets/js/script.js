@@ -17,9 +17,16 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
-
-/*function runGame(){
+/**
+ * the main game "loop" called when the script is first loaded
+ * and afther the users answer has been processed
+ */
+function runGame(){
+    let num1 = math.floor(math.random() *25) +1;
+    let num2 = math.floor(math.random() *25) +1;
 }
+
+runGame();
 function checkAnswer(){
 
 } 
@@ -28,4 +35,4 @@ function incrementScore(){}
 function incrementWrongAnswer(){}
 function displayAdditionQuestion(){}  
 function displaySubtractQuestion(){} 
-function displayMultiplyQuestion(){}  */
+function displayMultiplyQuestion(){}  
